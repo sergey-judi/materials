@@ -81,6 +81,17 @@ a, ul
 	background: rgba(171, 171, 171, 1);
 }
 
+
+.button-bg:hover {
+	width: calc( (100% - 20px) * 1.07 );
+	height: calc( (100% - 20px) * 1.07 );
+    transition: 400ms;
+}
+
+.button-bg:not(:hover) {
+    transition: 400ms;
+}
+
 .buttonText
 {
 	position: absolute;
